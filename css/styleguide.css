@@ -1,0 +1,99 @@
+@import url('font.css');
+
+:root {
+  --abbey: #4b5057;
+  --amaranth: #e1354b;
+  --black: #000000;
+  --black-2: #000000de;
+  --log-cabin: #21212114;
+  --mercury: #dfe1e5;
+  --navy-blue: #1883e6;
+  --pomegranate: #e63419;
+  --red-violet: #e61894;
+  --rose: #ff4e4e33;
+  --shark: #222529;
+  --white: #ffffff;
+
+  --font-size-l: 14px;
+  --font-size-m: 13px;
+  --font-size-s: 10px;
+  --font-size-xl: 15px;
+  --font-size-xxl: 19px;
+  --font-size-xxxl: 20px;
+  --font-size-xxxxl: 21px;
+
+  --font-family-inter: "Inter", Helvetica;
+  --font-family-roboto: "Roboto", Helvetica;
+  --font-family-vitro_core_otf-heavy: "VitroCore", Helvetica;
+  --font-family-vitro_core_ttf-heavy: "VitroCore", Helvetica;
+}
+.h4 {
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.inter-bold-shark-13px {
+  color: var(--shark);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.roboto-normal-black-10px {
+  color: var(--black-2);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.inter-bold-white-21px {
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xxxxl);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.inter-bold-black-21px {
+  color: var(--black);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xxxxl);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.roboto-black-white-13px {
+  color: var(--white);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 900;
+}
+
+.roboto-bold-white-10px {
+  color: var(--white);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.inter-bold-amaranth-15px {
+  color: var(--amaranth);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.vitrocoreotf-heavy-normal-amaranth-21px {
+  color: var(--amaranth);
+  font-family: var(--font-family-vitro_core_otf-heavy);
+  font-size: var(--font-size-xxxxl);
+  font-style: normal;
+  font-weight: 400;
+}
